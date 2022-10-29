@@ -1,0 +1,58 @@
+.video{
+    margin-top: 2%;
+    
+  }
+
+  .title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #f03936;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #326962;
+    --color-3: #328990;
+  }
+  
+  .title-word-3 {
+    --color-1: #328990;
+    --color-2: #f03936;
+    --color-3: #326962;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #f03936;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container {
+    margin-top: 1.5%;
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 10vh
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
