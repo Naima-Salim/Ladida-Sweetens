@@ -1,7 +1,7 @@
 .navbar {
     overflow: hidden;
-    background-color: #446A46;
-    height: 65px;
+    background-color: #4EA218;
+    height: 70px;
   }
   
   .navbar a {
@@ -30,7 +30,7 @@
   
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #82A284;
-    padding: 21px ;
+    padding: 24px ;
   
   }
   
@@ -64,8 +64,13 @@
     font-size: 25px;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    margin-top: -3.7%;
+    margin-top: -2.4%;
     margin-left: 3%;
+   }
+   .image-logo{ 
+    margin-left: 8%;
+    margin-top: -5%;
+   
    }
    input{
     padding-left: 1%;
