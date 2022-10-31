@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #4EA218;
+    background-color: #F4B01D;
     height: 70px;
   }
   
@@ -29,7 +29,7 @@
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #82A284;
+    background-color: #f1d69c;
     padding: 24px ;
   
   }
@@ -59,23 +59,23 @@
   }
   .logo{
     background: linear-gradient(
-    to top, #FFFFFF 50%,
-    #E4AEC5 50%);
+    to top, #e74f4f 50%,
+    #9d541c 0%);
     font-size: 25px;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    margin-top: -2.4%;
+    margin-top: -2.1%;
     margin-left: 3%;
    }
    .image-logo{ 
     margin-left: 8%;
-    margin-top: -5%;
+    margin-top: -5.4%;
    
    }
    input{
     padding-left: 1%;
      margin-left: 34%;
-     margin-top: 4%;
+     margin-top: 3%;
      height: 25px;
      width:30%;
    
@@ -83,6 +83,5 @@
  
 .search-bar .btn{
      margin-left: 66%;
-      
      color: #213346; 
  }
