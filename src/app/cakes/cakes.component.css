@@ -6,6 +6,7 @@ h1{
 #box1{
     background-color: #F4B01D;
     width: 20%;
+    margin-top: 4%;
     transition: transform 350ms ease-in-out;
     margin-left: 2%;
     border-radius: 20px;
@@ -23,17 +24,16 @@ h1{
     text-align: center;
     margin-top: 12%;
     padding-bottom: 4%;
-    font-size: 20px;
-    color: #fff;
+    font-size: 16px;
+    color: #000;
   }
 
   #box2{
     background-color: #F4B01D;
     width: 20%;
     transition: transform 350ms ease-in-out;
-    
     margin-left: 27%;
-    margin-top: -29.5%;
+    margin-top: -30%;
     border-radius: 20px;
     padding-top: 300px;
   }
@@ -49,16 +49,15 @@ h1{
     text-align: center;
     margin-top: 12%;
     padding-bottom: 4%;
-    font-size: 20px;
-    color: #fff;
+    font-size: 16px;
+    color: #000;
   }
   #box3{
     background-color: #F4B01D;
     width: 20%;
     transition: transform 350ms ease-in-out;
-    
     margin-left: 52%;
-    margin-top: -29.5%;
+    margin-top: -30%;
     border-radius: 20px;
     padding-top: 300px;
   }
@@ -74,16 +73,15 @@ h1{
     text-align: center;
     margin-top: 12%;
     padding-bottom: 4%;
-    font-size: 20px;
-    color: #fff;
+    font-size: 16px;
+    color: #000;
   }
   #box4{
     background-color: #F4B01D;
     width: 20%;
     transition: transform 350ms ease-in-out;
-    
     margin-left: 77%;
-    margin-top: -29.5%;
+    margin-top: -30%;
     border-radius: 20px;
     padding-top: 300px;
   }
@@ -99,13 +97,30 @@ h1{
     text-align: center;
     margin-top: 12%;
     padding-bottom: 4%;
-    font-size: 20px;
-    color: #fff;
-  }
-  .order{
-    margin-left: 7.2%;  
-    
+    font-size: 16px;
+    color: #000;
   }
   .button-1{
-    background-color: #F4B01D;
+    margin-left: 7%;
+    text-decoration: none;
   }
+  .button-2{
+    margin-left: 32%;
+    
+  }
+  .button-3{
+    margin-left: 57%;
+    
+  }
+  .button-4{
+    margin-left: 83%;
+    
+  }
+
+  /* .order{
+    margin-left: 7.2%;  
+    
+  } */
+  /* .button-1{
+    background-color: #F4B01D;
+  } */

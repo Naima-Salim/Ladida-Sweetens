@@ -1,0 +1,73 @@
+
+.ladida-form{
+    background-color: #fff;
+    margin-top: 6%;
+    margin-left: 12%;
+    text-align: center;
+    width: 70%;
+    padding-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 2%;
+   
+}
+
+h2{
+    margin-left: 9%;
+    font-weight: normal;
+    padding-top: 4%;
+    font-size: 30px;
+    color: #064109;
+}
+h1{
+    margin-left: 75%;
+    margin-top: -5%;
+    font-weight: lighter;
+    font-size: 18px;
+}
+span{
+    color: #064109;
+}
+.name{
+    text-align: center;
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 30%;
+    color: #000;
+    height: 35px;
+}
+.email{
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 30%;
+    color: #000;
+    height: 35px;
+    text-align: center; 
+}
+.location{
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 30%;
+    color: #000;
+    height: 35px;
+    text-align: center;
+}
+.description{
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 30%;
+    text-align: center;
+    height: 130px;
+}
+.send{
+    margin-left: 8%; 
+    margin-top: 3%;
+    width: 10%;
+    height: 35px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #064109;
+}
+.form-image{
+     margin-left: 53%;
+}

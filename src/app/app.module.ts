@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CakesComponent } from './cakes/cakes.component';
 import { LoginComponent } from './login/login.component';
+import { SearchbarComponent } from './searchbar/searchbar.component';
+import { PizzaComponent } from './pizza/pizza.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -14,6 +17,9 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     CakesComponent,
     LoginComponent,
+    SearchbarComponent,
+    PizzaComponent,
+    NavbarComponent,
     
   ],
   imports: [
@@ -24,3 +30,5 @@ import { LoginComponent } from './login/login.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

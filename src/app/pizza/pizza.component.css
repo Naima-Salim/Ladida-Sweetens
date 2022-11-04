@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+    margin-top: 7%;
+}
+h3{
+    text-align: center;
+    font-size: 23px;
+    color: rgb(147, 114, 7);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  margin-left: 50%;
+  margin-top: 3%;
+}
+
+.content h3 {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.content h3:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #f4a003;
+}
+
+.content h3:nth-child(2) {
+  color: #f4a003;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+.pizza1{
+  padding-top: 5%;
+}
+.pizza2{
+  margin-left: 21%;
+  margin-top: -21%;
+}
+.pizza-images{
+  margin-top: 4%;
+}
+.pizza3{
+  margin-left: 42%;
+  margin-top: -16.9%;
+}
+.pizza4{
+  margin-left: 63%;
+  margin-top: -16.9%;
+}
+.pizza5{
+  margin-left: 84%;
+  margin-top: -16.9%;
+}
+.text1{
+  margin-left: 3%;
+  margin-top: 1%;
+  font-size: 20px;
+
+}
+.text1-price{
+  margin-left: 4%;
+  margin-top: 0.8%;
+}
+.text2{
+  margin-left: 24%;
+  margin-top: 1%;
+  font-size: 20px;
+
+}
+.text2-price{
+  margin-left: 5%;
+  margin-top: 0.8%;
+}
